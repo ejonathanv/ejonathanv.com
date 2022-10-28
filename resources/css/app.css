@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding-top: 10rem;
+    @apply bg-light;
+}
+
+*{
+    @apply text-gray-900;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1{
+    @apply text-4xl leading-tight;
+}
+
+h2{
+    @apply text-3xl leading-tight;
+}
+
+h3{
+    @apply text-2xl font-bold leading-tight;
+}
+p.lead{
+    @apply text-xl leading-relaxed;
+}
+
+a:hover{
+    @apply opacity-50 underline;
+}
+
+.container{
+    @apply mx-auto max-w-7xl;
+}
+
+.website_header{
+    @apply py-7 px-10 fixed bg-light top-0 left-0 right-0 z-50;
+}
+
+.website_header_logo h1{
+    @apply text-3xl ;
+}
+
+.website_header_menu {
+    @apply ml-auto;
+}
+.website_header_menu ul{
+    @apply flex flex-wrap justify-end space-x-7;
+}
+
+.website_header_menu ul li{
+    @apply relative;
+}
+
+.website_header_menu ul li .website_header_submenu{
+    @apply absolute hidden bg-primary shadow-lg flex flex-col space-y-2 space-x-0 p-4 w-60;
+}
+
+.website_header_menu ul li:hover .website_header_submenu{
+    @apply block;
+}
+
+.website_banner{
+    @apply py-24 px-6;
+}
+
+.website_banner h1{
+    @apply text-5xl leading-tight mb-16;
+}
+
+.website_banner h4{
+    @apply text-2xl italic;
+}
+
+.section_lg{
+    @apply py-24 px-6;
+}
+
+.website_footer{
+    @apply py-32 px-6 bg-light;
+}
+
+img{
+    @apply shadow-lg;
+}
+
+
+/* Tablets */
+
+@media screen and (max-width: 1024px) {
+    body{
+        padding-top: 3rem;
+    }
+    .website_header{
+        @apply py-7 px-6;
+    }
+    h1{
+        @apply !text-4xl !leading-relaxed;
+    }
+    h2{
+        @apply !text-3xl !leading-relaxed;
+    }
+    h3{
+        @apply !text-2xl !leading-relaxed;
+    }
+    p.lead{
+        @apply !text-xl !leading-relaxed;
+    }
+    .section_lg{
+        @apply py-12 px-6;
+    }
+    .website_footer{
+        @apply py-24 px-6;
+    }
+}
+
+/* Mobiles */
+@media screen and (max-width: 768px){
+    body{
+        padding-top: 3rem;
+    }
+    h1{
+        @apply !text-3xl !leading-relaxed;
+    }
+    h2{
+        @apply !text-2xl !leading-relaxed;
+    }
+    h3{
+        @apply !text-xl !leading-relaxed;
+    }
+    p.lead{
+        @apply !text-lg !leading-relaxed;
+    }
+    .website_header{
+        @apply py-7 px-6;
+    }
+    .website_header_logo h1{
+        @apply !text-3xl ;
+    }
+    .website_banner h1{
+        @apply !leading-relaxed !mb-12;
+    }
+    .section_lg{
+        @apply py-10 px-6;
+    }
+    .website_footer{
+        @apply py-20 px-6;
+    }
+}
