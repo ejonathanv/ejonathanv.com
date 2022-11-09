@@ -6,7 +6,7 @@
 
         <h4>
             Si necesitas una cotización rápida no dudes en contactarme por 
-            <a href="https://wa.link/fyj0zc" target="_blank" class="underline">WhatsApp</a>.
+            <a href="https://wa.me/message/VLAGDCBE6XMWE1" target="_blank" class="underline">WhatsApp</a>.
         </h4>
     </div>
 </section>

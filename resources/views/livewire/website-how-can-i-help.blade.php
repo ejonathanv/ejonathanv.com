@@ -15,7 +15,7 @@
                 </div>
                 <div class="flex-1">
                     <p class="lead">
-                        Te ofrezco un servicio de diseño y desarrollo web a un precio accesible, con el cual podrás tener un sitio web que se adapte a tus necesidades y que se vea profesional.
+                        Te ayudo a conseguir un sitio web que se adapte a las necesidades de tu negocio, que sea fácil de usar y que se vea bien en cualquier dispositivo. Este sin duda sera un sitio altamente profesional y que te ayudara a conseguir los objetivos que te propongas.
                     </p>
                 </div>
             </li>
